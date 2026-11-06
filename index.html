@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEZONE - Oyun Dünyası</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>GAMEZONE</h1>
+
+        <nav>
+            <a href="#">Ana Sayfa</a>
+            <a href="#oyunlar">Oyunlar</a>
+            <a href="#hakkimizda">Hakkımızda</a>
+            <a href="#iletisim">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Oyun Dünyasına Hoş Geldin!</h2>
+        <p>En sevdiğin oyunları keşfet, yeni maceralara katıl.</p>
+        <a href="#oyunlar" class="buton">Oyunları Keşfet</a>
+    </section>
+
+    <section id="oyunlar" class="oyunlar">
+        <h2>Popüler Oyunlar</h2>
+
+        <div class="oyun-listesi">
+
+            <div class="oyun-karti">
+                <img src="https://placehold.co/400x220/202040/ffffff?text=GTA+V" alt="GTA 5">
+                <h3>GTA V</h3>
+                <p>Açık dünya ve aksiyon dolu bir macera.</p>
+                <button onclick="oyunBilgi('GTA V')">Detayları Gör</button>
+            </div>
+
+            <div class="oyun-karti">
+                <img src="https://placehold.co/400x220/202040/ffffff?text=Valorant" alt="Valorant">
+                <h3>Valorant</h3>
+                <p>Strateji ve rekabet dolu bir FPS oyunu.</p>
+                <button onclick="oyunBilgi('Valorant')">Detayları Gör</button>
+            </div>
+
+            <div class="oyun-karti">
+                <img src="https://placehold.co/400x220/202040/ffffff?text=Forza+Horizon+5" alt="Forza Horizon 5">
+                <h3>Forza Horizon 5</h3>
+                <p>Hız ve özgürlüğü bir arada yaşa.</p>
+                <button onclick="oyunBilgi('Forza Horizon 5')">Detayları Gör</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="hakkimizda">
+        <h2>Hakkımızda</h2>
+        <p>GAMEZONE, oyun severler için hazırlanmış bir oyun tanıtım platformudur.</p>
+    </section>
+
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p>Bize ulaşmak için: batuhancaliskan014@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 GAMEZONE - Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
