@@ -28,18 +28,8 @@ GAMEZONE, oyun severler için hazırlanmış modern ve şık tasarıma sahip bir
 - Fare ile üzerine gelindiğinde animasyonlu kart efektleri
 - Basit ve kullanıcı dostu menü
 
-## 📂 Proje Dosyaları
 
-```text
-GAMEZONE/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-## ▶️ Nasıl Çalıştırılır?
+## Requirements(HOW TO USE)
 
 1. Projeyi bilgisayarınıza indirin.
 2. GAMEZONE klasörünü açın.
